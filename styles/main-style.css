@@ -82,12 +82,49 @@ header{
     color: #bf771f;
     min-height: 25rem;
 
-    img{
+    & img{
         max-width: 300px;
         max-height: 300px;
     }
+
+    & .home-product-item:first-child{
+        padding-left: initial;
+    }
+
+    & .home-product-item{
+        border-right: 2px dotted #bf771f;
+        padding: 0  2.5rem;
+    }
+
+    & .home-product-item:last-child{
+        border: none;
+    }
 }
 
+
+.community-section{
+    background-color:#4018014f;
+   
+    
+    & .header-text-container{
+       
+        max-width: 40em;
+
+         h1{
+            font-size: 3.8em;
+         }
+    }
+
+    & nav{
+        background-color: black;
+        border: solid 1px #bf771f67;
+    }
+
+    & .nav-link a{
+        text-transform: uppercase;
+        color: #bf771f;
+    }
+}
 
 .footer-bottom{
 height: 3rem;
