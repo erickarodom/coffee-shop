@@ -1,0 +1,95 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    background-color: black;
+    font-size: 18px;
+    line-height: 2rem;
+    color: white;
+}
+
+header{
+    background-color:#4018014f;
+   
+    
+    & .header-text-container{
+       
+        max-width: 40em;
+
+         h1{
+            font-size: 3.8em;
+         }
+    }
+
+    & nav{
+        background-color: black;
+        border: solid 1px #bf771f67;
+    }
+
+    & .nav-link a{
+        text-transform: uppercase;
+        color: #bf771f;
+    }
+}
+
+.hero-section{
+    position: relative;
+    overflow: hidden;
+    
+    .hero-content-container{
+        max-width: 40em;
+        position: absolute;
+        top: 40%;
+
+        & h2{
+            font-size: 3em;
+        }
+    }
+
+}
+
+#overlay{
+    position: absolute; /* Sit on top of the page content */
+    
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #bf771f33; /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+
+}
+
+.background-video{
+    width: 100vw; /* Makes video take up the full width of the viewport */
+    height: auto;
+    max-height: 600px; /* Limits the height to a maximum of 600px */
+    object-fit: cover; /* Ensures the video covers the area without distorting */
+
+}
+
+.two-column-section{
+    color: #bf771f;
+    min-height: 25rem;
+}
+
+.three-column-section{
+    background-color:#4018014f;
+    color: #bf771f;
+    min-height: 25rem;
+
+    img{
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+
+
+.footer-bottom{
+height: 3rem;
+text-align: center;    
+}
