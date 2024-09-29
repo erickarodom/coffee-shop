@@ -81,6 +81,10 @@ header{
     background-color:#4018014f;
     color: #bf771f;
     min-height: 25rem;
+    
+    & p {
+        margin-bottom: 0;
+    }
 
     & img{
         max-width: 300px;
@@ -93,7 +97,7 @@ header{
 
     & .home-product-item{
         border-right: 2px dotted #bf771f;
-        padding: 0  2.5rem;
+        padding: 0 2.5rem;
     }
 
     & .home-product-item:last-child{
@@ -103,15 +107,15 @@ header{
 
 
 .community-section{
-    background-color:#4018014f;
-   
+    min-height: 25rem;
+    color: #bf771f;   
     
-    & .header-text-container{
+    & .community-text-container{
        
         max-width: 40em;
 
-         h1{
-            font-size: 3.8em;
+         h2{
+            font-size: 3em;
          }
     }
 
@@ -126,6 +130,11 @@ header{
     }
 }
 
+.footer-top{
+    background-color: #4018014f;
+    min-height: 200px;
+    line-height: .5rem;
+}
 .footer-bottom{
 height: 3rem;
 text-align: center;    
